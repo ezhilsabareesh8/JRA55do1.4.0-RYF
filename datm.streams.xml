@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <file id="stream" version="2.0">
 
-  <stream_info name="CORE_IAF_JRA.PRSN">
+  <stream_info name="CORE_IAF_JRA55do.PRSN">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -22,7 +22,7 @@
    <offset>0</offset>
   </stream_info>
 
-  <stream_info name="CORE_IAF_JRA.PRRN">
+  <stream_info name="CORE_IAF_JRA55do.PRRN">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -43,7 +43,7 @@
    <offset>0</offset>
   </stream_info>
 
-  <stream_info name="CORE_IAF_JRA.LWDN">
+  <stream_info name="CORE_IAF_JRA55do.LWDN">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -65,7 +65,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.SWDN">
+  <stream_info name="CORE_IAF_JRA55do.SWDN">
    <taxmode>cycle</taxmode>
    <tintalgo>coszen</tintalgo>
    <readmode>single</readmode>
@@ -87,7 +87,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.Q_10">
+  <stream_info name="CORE_IAF_JRA55do.Q_10">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -109,7 +109,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.SLP_10">
+  <stream_info name="CORE_IAF_JRA55do.SLP_10">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -131,7 +131,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.T_10">
+  <stream_info name="CORE_IAF_JRA55do.T_10">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -153,7 +153,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.U_10">
+  <stream_info name="CORE_IAF_JRA55do.U_10">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
@@ -175,7 +175,7 @@
   </stream_info>
 
 
-  <stream_info name="CORE_IAF_JRA.V_10">
+  <stream_info name="CORE_IAF_JRA55do.V_10">
    <taxmode>cycle</taxmode>
    <tintalgo>linear</tintalgo>
    <readmode>single</readmode>
