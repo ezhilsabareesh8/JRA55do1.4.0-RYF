@@ -25,6 +25,7 @@ modules:
   - netcdf-c-4.9.0-intel-2021.6.0-t5vmcra
   - parallel-netcdf-1.12.3-intel-2021.6.0-xty6sc5
   - xerces-c-3.2.3-intel-2021.6.0-z57iwgl
+  - netcdf-fortran-4.6.0-intel-2021.6.0-l6jywju
 
 exe: /home/565/ek4684/payu/access-om3/bin/access-om3-MOM6-CICE6-Debug-cca8784
 input: 
