@@ -1,8 +1,8 @@
 format: yamanifest
 version: 1.0
 ---
-work/access-om3-MOM6-CICE6-cca8784:
-  fullpath: /home/565/ek4684/payu/access-om3/bin/access-om3-MOM6-CICE6-cca8784
+work/access-om3-MOM6-CICE6:
+  fullpath: /home/565/ek4684/payu/access-om3/build/access-om3-MOM6-CICE6
   hashes:
-    binhash: 9aa55de3eac103ea4a3c3c0e2f41c98a
+    binhash: 52c0e6f2f8baec6ec2b6695e9a76cb6f
     md5: f79f8bb3cc20cc1a6b1dfc3e8ff1a396
