@@ -261,7 +261,7 @@ INIT_LAYERS_FROM_Z_FILE = True
                                 ! and salnities from a Z-space file on a latitude-
                                 ! longitude grid."
 
-TEMP_SALT_Z_INIT_FILE = WOA05_pottemp_salt.nc
+TEMP_SALT_Z_INIT_FILE = ocean_temp_salt.res.nc
                                 ! "default = 'temp_salt_z.nc'
                                 ! The name of the z-space input file used to initialize
                                 ! the layer thicknesses, temperatures and salinities."
