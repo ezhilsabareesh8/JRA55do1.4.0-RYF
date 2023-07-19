@@ -96,11 +96,6 @@ work/input/fv0.9x1.25_141008_polemod_ESMFmesh.nc:
   hashes:
     binhash: 03f7e7be93046b6185f4f0d40aa525bf
     md5: 522432e6af593bc3f4c0ddec22e45ff5
-work/input/global_gx1.bathy.nc:
-  fullpath: /g/data/ik11/inputs/cime/inputdata/2023-03-10/ice/cice/global_gx1.bathy.nc
-  hashes:
-    binhash: 64af7a2cf94f041a2b2c3d1489a2bab2
-    md5: e3bf809ef76eb42b5f538f0f7110c106
 work/input/grid.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_1deg/grid.nc
   hashes:

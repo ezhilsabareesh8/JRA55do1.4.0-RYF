@@ -31,12 +31,12 @@ NJHALO = 4
                                 ! in MOM_memory.h at compile time; without STATIC_MEMORY_
                                 ! the default is NJHALO_ in MOM_memory.h (if defined) or 2."
 
-NIGLOBAL = 320
+NIGLOBAL = 360
                                 ! "The total number of thickness grid points in the
                                 ! x-direction in the physical domain. With STATIC_MEMORY_
                                 ! this is set in MOM_memory.h at compile time."
 
-NJGLOBAL = 384
+NJGLOBAL = 300
                                 ! "The total number of thickness grid points in the
                                 ! y-direction in the physical domain. With STATIC_MEMORY_
                                 ! this is set in MOM_memory.h at compile time.
@@ -51,7 +51,7 @@ IO_LAYOUT = 1, 1
                                 ! The processor layout to be used, or 0,0 to automatically
                                 ! set the io_layout to be the same as the layout."
 
-NK = 60
+NK = 101
                                 ! "[nondim]
                                 ! The number of model layers."
 
@@ -227,7 +227,8 @@ TOPO_CONFIG = file
                                 ! seamount - Gaussian bump for spontaneous motion test case.
                                 ! USER - call a user modified routine."
 
-TOPO_FILE = ocean_topog.nc
+TOPO_FILE = topog.nc
+
                                 ! "default = 'topog.nc'
                                 ! The file from which the bathymetry is read."
 
@@ -266,12 +267,12 @@ TEMP_SALT_Z_INIT_FILE = ocean_temp_salt.res.nc
                                 ! The name of the z-space input file used to initialize
                                 ! the layer thicknesses, temperatures and salinities."
 
-Z_INIT_FILE_PTEMP_VAR = PTEMP
+Z_INIT_FILE_PTEMP_VAR = temp
                                 ! "default = 'ptemp'
                                 ! The name of the potential temperature variable in
-                                ! TEMP_SALT_Z_INIT_FILE."
+                                ! TEMP_SALT_Z_INIT_FILE. Conservative temperature in ocean_temp_salt.res.nc"
 
-Z_INIT_FILE_SALT_VAR = SALT
+Z_INIT_FILE_SALT_VAR = salt
                                 ! "default = 'salt'
                                 ! The name of the salinity variable in
                                 ! TEMP_SALT_Z_INIT_FILE."
@@ -377,7 +378,7 @@ REGRIDDING_COORDINATE_MODE = Z*
                                 ! SLIGHT - stretched coordinates above continuous isopycnal
                                 ! ADAPTIVE - optimize for smooth neutral density surfaces"
 
-ALE_COORDINATE_CONFIG = "FILE:ocean_vgrid.nc,dz"
+ALE_COORDINATE_CONFIG = "FILE:ocean_vgrid.nc,nzv"
                                 ! "default = 'UNIFORM'
                                 ! Determines how to specify the coordinate
                                 ! resolution. Valid options are:
